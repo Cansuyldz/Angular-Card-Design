@@ -1,0 +1,37 @@
+@import '../../assets/styles/table';
+.comments-list {
+  &-add-btn {
+    margin-top: 20px;
+    display: grid;
+    justify-content: end;
+
+    button {
+      width: 150px;
+      height: 40px;
+      font-size: 20px;
+      font-weight: bolder;
+      background: #3e94ec;
+      outline: none;
+      border: 1px solid #3e94ec;
+      border-radius: 5px;
+
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+  }
+}
+.comments-form-update-btn {
+  text-align: center;
+  button {
+    border: none;
+    background: none
+  }
+}
+.comments-form-delete-btn {
+  justify-content: center;
+  button {
+    border: none;
+    background: none
+  }
+}
