@@ -1,27 +1,15 @@
-# Deneme
+Angular Card Design 
+Kullanıcıların bilgilerinin düzenlendiği, silindiği ve eklendiği bir projedir.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.3.
+![Screenshot_1](https://github.com/Cansuyldz/Angular-Card-Design/assets/109664594/4665048b-acd8-4116-8660-4adf3779a0cc)
 
-## Development server
+![Screenshot_2](https://github.com/Cansuyldz/Angular-Card-Design/assets/109664594/dc86e5a3-4ee4-4d35-ae40-3c6a95b50d2a)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+![Screenshot_3](https://github.com/Cansuyldz/Angular-Card-Design/assets/109664594/5788d9ba-da33-4c0a-bf51-28c6093c4d31)
 
-## Code scaffolding
+![Screenshot_4](https://github.com/Cansuyldz/Angular-Card-Design/assets/109664594/4e0c6cf2-156e-42d6-8f5f-62d5890b4000)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+![Screenshot_5](https://github.com/Cansuyldz/Angular-Card-Design/assets/109664594/7956acc3-1e51-403c-9e23-7da6f44fdfca)
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
