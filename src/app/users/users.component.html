@@ -1,0 +1,30 @@
+<div class="container-xxl users-list">
+  <div class="users-list-add-btn">
+    <button (click)="openDialog()">Add</button>
+  </div>
+  <table class="container-xxl">
+    <thead>
+    <tr>
+      <th>No</th>
+      <th>Name</th>
+      <th>Phone</th>
+      <th>User Name</th>
+      <th>Update</th>
+      <th>Delete</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let user of users;let i =index">
+      <td>{{user.id}}</td>
+      <td>{{user.name}}</td>
+      <td>{{user.phone}}</td>
+      <td>{{user.username}}</td>
+      <td class="users-form-update-btn"><button (click)="openUserUpdateDialog(user)"><mat-icon aria-hidden="false" aria-label="Example edit icon" fontIcon="edit"></mat-icon></button>
+      </td>
+      <td class="users-form-update-btn"><button><mat-icon aria-hidden="false" aria-label="Example delete icon" fontIcon="delete" (click)="deleteUser(user.id, i)"></mat-icon></button>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+

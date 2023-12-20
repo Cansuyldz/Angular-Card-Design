@@ -1,0 +1,21 @@
+<h1 mat-dialog-title>Add Card</h1>
+<div mat-dialog-content>
+  <form action="" [formGroup]="commentFormAddGroup">
+    <mat-form-field>
+      <mat-label>Name</mat-label>
+      <input matInput formControlName="name">
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Email</mat-label>
+      <input matInput formControlName="email">
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Body</mat-label>
+      <input matInput formControlName="body">
+    </mat-form-field>
+  </form>
+</div>
+<div mat-dialog-actions>
+  <button mat-button mat-dialog-close>Cancel</button>
+  <button mat-button cdkFocusInitial [disabled]="commentFormAddGroup.invalid" (click)="commentAdd()">Add</button>
+</div>

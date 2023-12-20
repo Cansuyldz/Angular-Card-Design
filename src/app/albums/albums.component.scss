@@ -1,0 +1,42 @@
+@import '../../assets/styles/table';
+table{
+  width: 100%;
+}
+.albums-list {
+  &-add-btn {
+    margin-top: 20px;
+    display: grid;
+    justify-content: end;
+
+    button {
+      width: 150px;
+      height: 40px;
+      font-size: 20px;
+      font-weight: bolder;
+      background: #D3D3D3;
+      outline: none;
+      border: 1px solid #3e94ec;
+      border-radius: 5px;
+      color: #1b1e24 ;
+
+      &:hover {
+        background: #1b1e24;
+        color: #D3D3D3;
+      }
+    }
+  }
+}
+.albums-form-update-btn {
+  text-align: center;
+  button {
+    border: none;
+    background: none
+  }
+}
+.albums-form-delete-btn {
+  justify-content: center;
+  button {
+    border: none;
+    background: none
+  }
+}

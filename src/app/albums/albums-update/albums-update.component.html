@@ -1,0 +1,19 @@
+<h1 mat-dialog-title>Album Update Card</h1>
+<div mat-dialog-content>
+  <form action="" [formGroup]="albumUpdateForm">
+    <mat-form-field>
+      <mat-label>User Id</mat-label>
+      <input matInput formControlName="userId">
+      <input formControlName="id" type="hidden">
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Title</mat-label>
+      <input matInput formControlName="title">
+    </mat-form-field>
+  </form>
+</div>
+<div mat-dialog-actions>
+  <button mat-button mat-dialog-close>Cancel</button>
+  <button mat-button cdkFocusInitial   [disabled]="albumUpdateForm.invalid" (click)="albumUpdate()">Update</button>
+</div>
+
